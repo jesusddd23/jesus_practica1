@@ -1,0 +1,14 @@
+*{ box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+top: 0px;
+}
+header {  background-color: #fffb00;
+} 
+height: 80px;
+display: flex;
+width: 100px;
+background-color: #ffe600;
+justify-content: center;
+border: 0;
+position: fixed;
