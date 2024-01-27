@@ -11,22 +11,22 @@
 <body>
     <!--En el siguiente contenedor se coloco todo el encabezado-->
     <header>
-        <div id="Vlzaflag">
+        <div id="Venzlaflag">
             <a href=""> <img src="https://ve.epaenlinea.com/static/version1700518875/frontend/EPA/EpaThemeVE/es_VE/images/country-flag.jpg" alt="Venezuela" width="20px" height="12px"> 
-                <span>Venezuela</span>
-                <select>
+                <span id="Venzla">Venezuela ($)</span>
+                <select id="moneda">
                     <option value="$">($)</option>
-                    <option value="Bs">(Bs)</option>
+                    <option value="Bs">Bolivares - Bs</option>
                 </select>
             </a>
         </div>
         <!--<!--En el siguiente contenedor se coloco todo referente a la barra de navegacion-->
         <nav> 
-            <img src="imagenes/epa_logo.png" alt="EPA" width="135px" height="43px">
-            <div> <!--En este div colocaremos el imput de buscar dentro de un formulario, y la imagen de la lupa-->
-                <form id="buscador">
-                    <input type="text" placeholder="Buscar en toda la tienda..." aria-autocomplete="both" maxlength="512" type="search">
-                    <button id="lupabuscador"> <img src="imagenes/lupa epa.png" alt="lupa" width="50px" height="17px">   </button>
+            <img id="epa_logo" src="imagenes/epa_logo.png" alt="EPA" width="135px" height="43px">
+            <div id="contenedornav"> <!--En este div colocaremos el imput de buscar dentro de un formulario, y la imagen de la lupa-->
+                <form>
+                    <input id="buscador" type="text" placeholder="Buscar en toda la tienda..." aria-autocomplete="both" maxlength="512" type="search">
+                    <button id="lupabuscador"> <img src="imagenes/lupa epa.png" alt="lupa" width="50px" height="40px">   </button>
                 </form>    
             </div>
             <!--En este div se coloca un boton de seleccion-->
@@ -44,17 +44,32 @@
             </div> 
         </nav>
     </header>
-    
     <main>
         <!--barra de recomendaciones -->
-        <section>
-
+        <section id="barraRecomendaciones">
+            <a id="Productos" href="https://ve.epaenlinea.com/productos.html" class="recomendaciones"><img src="./imagenes/hamburgesa.png" alt="burger" height="15px"> Productos 
+                <select name="" id=""></select>
+            </a>
+            <a href="" class="recomendaciones">Preferidos</a>
+            <a href="" class="recomendaciones">Tiendas</a>
+            <a href="" class="recomendaciones">Folleto</a>
+            <a href="" class="recomendaciones">Ideas</a>
+            <a href="" class="recomendaciones">Envío a Domicilio </a>
+            <a href="" class="recomendaciones">Promociones</a>
+            <a href="" class="recomendaciones">Acción Social</a>
+            <a href="" class="recomendaciones">Servicios</a>
+            <a href="" class="recomendaciones">Únete al Equipo</a>
+            
+            <div id="usuario"> 
+                <a href="" class="recomendaciones"></a> 
+                </div>
         </section>
+        <br>
         <a href=""> <img src="https://ve.epaenlinea.com/media/magestore/bannerslider/images/v/e/ve_enviomoto_dic23_banner.jpg" alt="">
         </a>
         <!--Cuadricula de articulos Disponibles -->
         <section>
-
+            
         </section>
         <!--Cuadricula de Videos-->
         <section>
