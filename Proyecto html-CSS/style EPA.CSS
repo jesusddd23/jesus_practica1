@@ -124,8 +124,11 @@ justify-content: flex-start;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100%;}
 
-
 #fotoArticulo {
-    width: 150px;
+    width: 150px;}
 
+.contenedorVideos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
