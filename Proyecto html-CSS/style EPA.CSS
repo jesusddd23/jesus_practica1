@@ -144,14 +144,14 @@ nav {
     width: 150px;
     height: 54px;
     display: flex;
-    color: #039;
+    color: #003399;
     font-family: 'FuturaStd';
     font-size: 15px;
     font-weight: 400;
     border: none;
 }
 .titulos {
-        color: #039;
+        color: #003399;
         font-family:'FuturaStd';
         font-size: 25px;
         font-weight: 600;
@@ -178,3 +178,66 @@ nav {
 .CajaTitulos {
         height: 70px;
         padding: 8px 10.5px; }
+
+.footerContenido {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: #333333;
+    margin-top: 25px;
+    padding: 25px 20px 25px 20px;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+.columnas {
+    justify-content: center;
+    align-items: center;
+    padding-inline: 10px;
+}
+.titulofooter { 
+    color: #003399;
+    font-family:'FuturaStd';
+    font-size: 15px;
+    font-weight: 600;
+    margin-block-end: 10.5px ;
+    margin-block-start: 0px ;
+    margin-bottom: 10.5px ; }
+
+.parrafoFooter {
+    color: #333333;
+    margin-block-end: 10.5px ;
+    margin-block-start: 0px ;
+    margin-bottom: 10.5px  }
+
+.listaColumna {
+    align-items: center;
+    justify-content: center;
+    margin-block-end: 10.5px ;
+    margin-block-start: 0px ;
+    margin-bottom: 10.5px ;
+    list-style-type: none;
+}
+.listaColumna a {
+    color: #009ee2;
+    text-decoration: none;
+}
+#Suscripcion {
+    padding-top: 30px;
+}
+#Suscripcion form { padding-top: 10.5px;
+display: flex;}
+
+#inputSuscripcion { height: 32px;
+}
+#buttonSuscripcion { height: 32px;
+    background: #039;
+    border: 1px solid #1979c3;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    padding: 7px 15px;
+}
+
+
